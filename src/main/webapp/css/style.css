@@ -1,0 +1,114 @@
+.gradiant1{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.gradiant2{
+    background: rgb(89,180,58);
+background: linear-gradient(76deg, rgba(89,180,58,1) 0%, rgba(253,39,29,1) 0%, rgba(69,82,252,1) 78%);
+}
+.gradiant3{
+    background: rgb(89,180,58);
+background: linear-gradient(38deg, rgba(89,180,58,1) 0%, rgba(253,29,252,1) 0%, rgba(69,82,252,1) 78%);
+}
+.bottomshadow1{
+    border-bottom:6px groove blue;
+    box-shadow:0 0.5px 1px .5px  aqua;
+}
+.nav-link:hover{
+    border-bottom:2px groove turquoise;
+    
+    
+}
+.myhover:hover{
+    
+background: linear-gradient(38deg, rgba(89,180,58,1) 0%, rgba(253,29,252,1) 0%, rgba(69,82,252,1) 78%);
+}
+.form-control{
+    border-radius:14px;
+   
+}
+.form-control1{
+    border-radius:14px;
+    border:1px groove blue;
+    color:whitesmoke;
+    font-size:19px;
+   
+}
+.boxshaow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.boshadow1{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.regiback{
+    background:url(../img/img13.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.admin .card{
+    border: 1px solid  blue ;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+}
+.admin .card:hover{
+    cursor: pointer;
+  background: rgb(89,180,58);
+background: linear-gradient(32deg, rgba(89,180,58,1) 0%, rgba(155,221,8,1) 36%, rgba(252,69,224,1) 78%);
+}
+.discount-label{
+    font-size: 15px !important;
+    font-style:italic !important;
+}
+.discount-label-original{
+    font-size: 10px !important;
+    font-style:italic !important;
+    text-decoration:line-through !important
+}
+
+
+/*tost*/
+
+  #tostmsg{
+                min-width: 300px;
+                background-color:black;
+                position: fixed;
+                bottom: 30px;
+                left: 50%;
+                margin-left: -120px;
+                padding: 10px;
+                color: white;
+                text-align: center;
+                z-index: 1;
+                font-size: 18px;
+                visibility: hidden;
+                 
+            }
+            @keyframes fadeIn{
+                from{
+                    bottom:0px;
+                    opacity:0;
+                }
+                to{
+                    bottom:30px;
+                    opacity: 1;
+                    
+                }
+            }
+            @keyframes fadeOut{
+                from{
+                    bottom:30px;
+                    opacity:1;
+                }
+                to{
+                    bottom:0px;
+                    opacity: 0;
+                    
+                }
+            }
+            #tostmsg.actions{
+                visibility:visible;
+                animation: fadeIn 0.5s , fadeOut 0.5s 2.5s;
+            }
+           
+

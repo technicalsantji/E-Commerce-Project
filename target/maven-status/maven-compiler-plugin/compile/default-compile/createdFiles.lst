@@ -1,0 +1,12 @@
+com\Entities\Category.class
+com\Entities\User.class
+com\servlet\Logout.class
+com\servlet\Login.class
+com\Dao\CategoryDao.class
+com\gdguproject\helper\Helper.class
+com\Dao\UserDao.class
+com\Dao\ProductDao.class
+com\servlet\AddCategory.class
+com\gdguproject\helper\FactoryProviders.class
+com\servlet\Register.class
+com\Entities\Product.class
